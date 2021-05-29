@@ -8,11 +8,16 @@
 }
 
 .container{
-    min-width:750px; 
-    min-height:1000px;
+    /* width:100%; 
+    height:100%;
+    min-width:800px; 
+    min-height:1000px; */
 }
 
 div.nav-bar {
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px; 
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
@@ -81,6 +86,9 @@ div.hero-section {
     background: #304353;
     padding: 10rem;
     width: 100vw;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.hero-content-heading {
@@ -127,6 +135,9 @@ div.hero-background {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.background {
@@ -253,7 +264,7 @@ div.hero-background-pos {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
     div.hero-section {
         background: #304353;
         padding: 10rem;
@@ -346,6 +357,9 @@ div.snapshot-team {
     background: #f0f0f0;
     text-align: center;
     padding-top: 2rem;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.snapshot-team h2 {
@@ -368,6 +382,9 @@ div.snapshot-box {
     align-items: center;
     background: #f0f0f0;
     padding: 4rem 6rem;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.snapshot-box-content {
@@ -432,6 +449,9 @@ div.box1 h5 {
 div.gallery-section {
     background: #fff;
     padding: 4rem;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.gallery-content {
@@ -480,6 +500,9 @@ div.img img {
 div.footer {
     background: #304353;
     padding: 3rem;
+    width: 100%; 
+    height: 100%; 
+    min-width: 750px;
 }
 
 div.footer-content {
@@ -550,6 +573,7 @@ textarea {
     border: 1px solid #bcc3c7;
     background: transparent;
     color: #f0f0f0;
+    font-size: 1.15rem;
 }
 
 div.footer-btn {
